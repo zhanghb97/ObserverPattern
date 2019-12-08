@@ -13,7 +13,7 @@ public class ForecastDisplay implements Observer, DisplayElement {
         this.humidity = humidity;
         display();
     }
-    // 打印当前温度湿度
+    // 打印预测信息
     public void display() {
         if(temperature > 30 && humidity < 60) {
             System.out.println("Forecast: Sunny");
